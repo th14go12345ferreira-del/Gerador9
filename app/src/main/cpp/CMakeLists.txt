@@ -26,5 +26,6 @@ target_link_libraries(
     transcribetranslate
     PRIVATE
     whisper
+    android
     ${log-lib}
 )
